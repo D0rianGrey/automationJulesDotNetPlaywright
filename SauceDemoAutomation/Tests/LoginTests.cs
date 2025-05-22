@@ -21,7 +21,7 @@ namespace SauceDemoAutomation.Tests
 
             // Launch browser
             // Set Headless = false for local debugging if you want to see the browser
-            await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = true }); 
+            await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions { Headless = false }); 
             var page = await browser.NewPageAsync();
 
             // Navigate to login page
