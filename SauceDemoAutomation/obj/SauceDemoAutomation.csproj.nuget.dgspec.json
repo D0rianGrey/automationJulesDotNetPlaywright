@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/app/SauceDemoAutomation/SauceDemoAutomation.csproj": {}
+    "/Users/yevheniivakerin/RiderProjects/automationJulesDotNetPlaywright/SauceDemoAutomation/SauceDemoAutomation.csproj": {}
   },
   "projects": {
-    "/app/SauceDemoAutomation/SauceDemoAutomation.csproj": {
+    "/Users/yevheniivakerin/RiderProjects/automationJulesDotNetPlaywright/SauceDemoAutomation/SauceDemoAutomation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/SauceDemoAutomation/SauceDemoAutomation.csproj",
+        "projectUniqueName": "/Users/yevheniivakerin/RiderProjects/automationJulesDotNetPlaywright/SauceDemoAutomation/SauceDemoAutomation.csproj",
         "projectName": "SauceDemoAutomation",
-        "projectPath": "/app/SauceDemoAutomation/SauceDemoAutomation.csproj",
-        "packagesPath": "/home/swebot/.nuget/packages/",
-        "outputPath": "/app/SauceDemoAutomation/obj/",
+        "projectPath": "/Users/yevheniivakerin/RiderProjects/automationJulesDotNetPlaywright/SauceDemoAutomation/SauceDemoAutomation.csproj",
+        "packagesPath": "/Users/yevheniivakerin/.nuget/packages/",
+        "outputPath": "/Users/yevheniivakerin/RiderProjects/automationJulesDotNetPlaywright/SauceDemoAutomation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/swebot/.nuget/NuGet/NuGet.Config"
+          "/Users/yevheniivakerin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -86,12 +92,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
