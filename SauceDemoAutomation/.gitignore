@@ -1,0 +1,19 @@
+# Папки с зависимостями
+Dependencies/
+packages/
+*.dll
+*.pdb
+
+# Стандартные папки для C# проектов
+bin/
+obj/
+.vs/
+
+# NuGet
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Файлы пользовательских настроек
+*.user
+*.suo
